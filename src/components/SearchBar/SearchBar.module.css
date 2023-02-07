@@ -1,6 +1,4 @@
-
-
-.Closebutton{
+.Agregar{
     --c:  #229091; /* the color*/
   
     box-shadow: 0 0 0 .1em inset var(--c); 
@@ -32,34 +30,3 @@
     font-weight: bold;  
     border: none;
   }
-
-.div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px;
-  font-family: "Roboto", sans-serif;
-  color: #10182f;
-}
-
-.card {
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 15px;
-    background-color: #ececece0;
-    border-radius: 10px;
-    box-shadow: 0 2px 40px rgb(83, 81, 153);
-    overflow: hidden;
-    width: 300px;
-  }
-
-.text{
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    letter-spacing: 5px;
-    line-height: 15px;
-    text-transform: capitalize;
-    text-indent: 30px;
-    text-align: justify;
-}
