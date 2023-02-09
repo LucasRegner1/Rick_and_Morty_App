@@ -1,12 +1,17 @@
-import styles from "./SearchBar.module.css";
+//import styles from "./SearchBar.module.css";
+import { useState } from "react";
 
 export default function SearchBar(props) {
+  const [character, setCharacter] = useState("");
+
+  const handleChange = (event) => {
+    setCharacter(event.target.value);
+  };
+
   return (
-    <div className={styles.searchTerm}>
-      <input type="search" />
-      <button className={styles.Agregar} onClick={props.onSearch}>
-        Agregar
-      </button>
+    <div>
+      <input type="search" value={character} onChange={handleChange} />
+      <button onClick={() => props.onSearch(character)}>Agregar</button>
     </div>
   );
 }
