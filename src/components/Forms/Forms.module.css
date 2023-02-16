@@ -1,0 +1,14 @@
+.form{
+    -webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.text{
+    color:white;
+    font-size: 20px;
+    letter-spacing: 5px;
+    line-height: 15px;
+    text-transform: capitalize;
+    text-indent: 30px;
+    text-align: justify;
+}
